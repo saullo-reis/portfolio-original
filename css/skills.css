@@ -1,0 +1,33 @@
+
+.hard-skills.active,.soft-skills.active {
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hard-skills.active ul,.soft-skills.active ul{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.hard-skills.active ul li, .soft-skills.active ul li{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    background-color: #4169E1;
+    box-shadow: 10px 15px 2px black;
+    margin:20px;
+    padding:10px;
+    border-radius: 20px;
+}
+
+.hard-skills.active ul li{
+    height: 150px;
+}

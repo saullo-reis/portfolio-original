@@ -1,0 +1,95 @@
+.sobre-min{
+    display: none;
+}
+
+#sobre{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    margin-top:130px;
+}
+
+#buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sobre button{
+    color:black;
+    cursor:pointer;
+    background-color: #ffffff;
+    border: none;
+    width: 20%;
+    height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    margin:2px;
+}
+#sobre button:hover{
+    transition:1s;
+    color:white;
+    background-color: #4169E1;
+}
+
+#sobre .sobre-min.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+}
+
+#sobre .sobre-min img{
+    width: 200px;
+    border: solid white 1px;
+    border-radius: 200px;
+}
+
+#sobre h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:30px;
+    color: #4169E1;
+}
+
+#sobre .sobre-min.active .infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobre .sobre-min.active .infos div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 40%;
+}
+
+#sobre .sobre-min.active nav{
+    margin-top: 20px;
+
+}
+
+
+#sobre .sobre-min.active p{
+    margin-bottom:30px;
+}
+
+#sobre .sobre-min.active a{
+    margin:0 20px 0 0;
+    font-weight: bold;
+}
+
+#sobre .sobre-min a:hover{
+    color: #4169E1;
+    transition: 1s;
+    transform: scale(1.2, 1.2);
+
+}
+
+.hard-skills, .soft-skills{
+    display:none;
+}
+

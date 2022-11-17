@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+body{
+    background-color: #1f1f1f;
+}
+.division{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
