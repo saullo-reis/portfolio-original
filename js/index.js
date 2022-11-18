@@ -1,7 +1,11 @@
 const buttons = document.getElementsByClassName('button')
+const buttonAbrir = document.getElementById('button-abrir')
 const divs = document.getElementsByClassName('skills')
+const projects = document.getElementsByClassName('section')
 const arrayDivs = [...divs]
-console.log(divs)
+const arrayProjects = [...projects]
+console.log(buttonAbrir)
+let count = 0
 
 function sobre() {
     arrayDivs.forEach(element => {
@@ -24,3 +28,18 @@ function soft(){
     });
 }
 
+function more(){
+    arrayProjects.forEach((element)=> {
+        if(element.classList.contains('active')){
+            return
+        }
+        else{
+            element.classList.add('active')
+            count++
+        }
+    })
+    console.log(count)
+    if(arrayProjects.length <= count+1){
+        buttonAbrir.style.opacity = '0.1'
+    }
+}

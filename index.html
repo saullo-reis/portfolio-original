@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/sobre.css">
     <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/projetos.css">
 </head>
 <body>
     <section id="header">
@@ -26,7 +27,7 @@
         <div class="sobre-min active skills">
             
             <div class="infos">
-                <img src="./assets/foto-minha.jpg"></img>
+                <img src="./assets/img/foto-minha.jpg"></img>
                 <div>
                     <h2>Sobre min:</h2>
                     <p>Me chamo Saullo Reis dos Santos, sou uma pessoa ativa e criativa, que busca com disciplina aprender diariamente e evoluir nessa área que gosto tanto.</p>
@@ -95,35 +96,61 @@
     <section id="projetos">
         <h2>Projetos:</h2>
         <ul>
-            <div>
-                <li>
-                    <h3>Projeto Pokedéx</h3>
-                </li>
-                <li>
-                    <h3>Projeto TMDB</h3>
-                </li>
-                <li>
-                    <h3>Projeto Github Search</h3>
-                </li>
-                <li>
-                    <h3>Projeto Calculadora</h3>
-                </li>
+            <div class="section1 section active">
+                <a href="https://lovely-starburst-b74520.netlify.app/" target='_blank'>
+                    <li>
+                        <h3>Projeto Pokedéx</h3>
+                        <img src="./assets/img/poke-gif.gif"></img>
+                    </li>
+                </a>
+                <a href="https://tmdb-project-2.vercel.app/" target='_blank'>
+                    <li>
+                        <h3>Projeto TMDB</h3>
+                        <img src="./assets/img/TMDB GIF.gif"></img>
+                    </li>
+                </a>
+                <a href="https://saullo-reis.github.io/projeto-inicial-fetch-github-api-main/" target='_blank'>
+                    <li>
+                        <h3>Projeto Github Search</h3>
+                        <img src="./assets/img/github api.gif"></img>
+                    </li>
+                </a>
+                <a href="https://saullo-reis.github.io/calculadora/" target='_blank'>
+                    <li>
+                        <h3>Projeto Calculadora</h3>
+                        <img src="./assets/img/calculadoragif.gif"></img>
+                    </li>
+                </a>
             </div>
-            <div>
-                <li>
-                    <h3>Projeto Pizzaria</h3>
-                </li>
-                <li>
-                    <h3>Projeto Landing-Page CODE Café</h3>
-                </li>
-                <li>
-                    <h3>Projeto FAQ</h3>
-                </li>
-                <li>
-                    <h3>Projeto Agência XYZ</h3>
-                </li>
+
+            <div class="section2 section">
+                <a href="https://saullo-reis.github.io/pizzaria/" target='_blank'>
+                    <li>
+                        <h3>Projeto Pizzaria</h3>
+                        <img src="./assets/img/pizza-gif.gif"></img>
+                    </li>
+                </a>
+                <a href="https://saullo-reis.github.io/landing-page-code-cafe/" target='_blank'>
+                    <li>
+                        <h3>Projeto Landing-Page CODE Café</h3>
+                        <img src="./assets/img/code-cafe.gif"></img>
+                    </li>
+                </a>
+                <a href="https://saullo-reis.github.io/faq/" target='_blank'>
+                    <li>
+                        <h3>Projeto FAQ</h3>
+                        <img src="./assets/img/faq.gif"></img>
+                    </li>
+                </a>
+                <a href="https://saullo-reis.github.io/landing-page-com-grid/" target='_blank'>
+                    <li>
+                        <h3>Projeto Agência XYZ</h3>
+                        <img src="./assets/img/agencia-xyz.gif"></img>
+                    </li>
+                </a>
             </div>
         </ul>
+        <button id='button-abrir'onclick="more()">Mostrar Mais</button>
     </section>
     <section id="footer">
         <p>© Saullo Reis</p>
