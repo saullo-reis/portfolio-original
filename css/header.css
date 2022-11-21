@@ -16,9 +16,9 @@
     padding:10px;
     cursor: pointer;
     color:#483D8B;
+    transition:1s;
 }
 
 #header h1:hover{
-    transition:1.2s;
     transform: scale(1.2, 1.2);
 }
