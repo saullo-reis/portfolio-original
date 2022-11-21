@@ -5,7 +5,7 @@ const projects = document.getElementsByClassName('section')
 const arrayDivs = [...divs]
 const arrayProjects = [...projects]
 console.log(buttonAbrir)
-let count = 0
+let count = 1
 
 function sobre() {
     arrayDivs.forEach(element => {
@@ -39,7 +39,7 @@ function more(){
         }
     })
     console.log(count)
-    if(arrayProjects.length <= count+1){
+    if(arrayProjects.length == count){
         buttonAbrir.style.opacity = '0.1'
     }
 }

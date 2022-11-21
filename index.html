@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="./css/sobre.css">
     <link rel="stylesheet" href="./css/skills.css">
     <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contato-footer.css">
+    <link rel="stylesheet" href="./media/media.css">
 </head>
 <body>
     <section id="header">
-        <h1>SR</h1>
+        <a href="#sobre"><h1>SR</h1></a>
     </section>
     <section id="sobre" >
         <div id="buttons">
@@ -27,61 +29,65 @@
         <div class="sobre-min active skills">
             
             <div class="infos">
-                <img src="./assets/img/foto-minha.jpg"></img>
-                <div>
-                    <h2>Sobre min:</h2>
-                    <p>Me chamo Saullo Reis dos Santos, sou uma pessoa ativa e criativa, que busca com disciplina aprender diariamente e evoluir nessa área que gosto tanto.</p>
-                    <h2>Redes:</h2>
+                <img class="foto-minha"src="./assets/img/foto-minha.jpg"></img>
+                <div class="infos">
+                    <h2>Sobre min</h2>
+                    <p>Me chamo Saullo Reis dos Santos, sou um desenvolvedor front-end júnior, busco com muita disciplina evoluir e entrar no mercado de trabalho.
+                    <br>
+                    Busco trabalhar com ReactJs mas estou aberto para outras propostas.
+                    </p>
+                    
+                    <h2>Redes</h2>
                     <nav>
-                        <a href="https://www.linkedin.com/in/saullo-reis-874852231/" target='_blank'>Linkedin</a>
-                        <a href="https://www.instagram.com/saulloreis/" target='_blank'>Instagram</a>
-                        <a href="https://wa.me/5521980448191" target='_blank'>Whatsapp</a>
-                        <a href="https://github.com/saullo-reis" target='_blank'>GitHub</a>
+                        <a href="https://www.linkedin.com/in/saullo-reis-874852231/" target='_blank'><img class='icon-redes' src="./assets/img/icons/linkedin.png"></a>
+                        <a href="https://www.instagram.com/saulloreis/" target='_blank'><img class='icon-redes 'src="./assets/img/icons/instagram.png"></a>
+                        <a href="https://wa.me/5521980448191" target='_blank'><img class='icon-redes ' src="./assets/img/icons/whatsapp.png"></a>
+                        <a href="https://github.com/saullo-reis" target='_blank'><img class='icon-redes ' src="./assets/img/icons/github.png"></a>
                     </nav>
+                    <a href="./assets/curriculo 21-11.pdf" download>Clique aqui para baixar o CV</a>
                 </div>
             </div>
         </div>
         <div class="hard-skills skills">
-            <h2>Hard Skills:</h2>
+            <h2>Hard Skills</h2>
             <ul>
                 <li>
-                    <h3>HTML</h3>
+                    <img class="icon-tec" src="./assets/img/icons/html.png" >
                     <p>
                         HTML foi a primeira habilidade que aprendi, com ela faço os
                         esqueletos de meus sites.
                     </p>
                 </li>
                 <li>
-                    <h3>CSS</h3>
+                    <img class="icon-tec" src="./assets/img/icons/css-3.png">
                     <p>
                         CSS foi a segunda habilidade que aprendi, essa linguagem de
                         programação é utilizada pra estilizar o esqueleto do HTML.
                     </p>
                 </li>
                 <li>
-                    <h3>JavaScript</h3>
+                    <img class="icon-tec" src="./assets/img/icons/js.png">
                     <p>
                         O JavaScript é uma linguagem que eu utilizo para conseguir dar vida para o site, pra não ficar algo estático e apenas para informação.
                       </p>
                 </li>
                 <li>
-                    <h3>GIT</h3>
+                    <img class="icon-tec" src="./assets/img/icons/git.png" >
                     <p>
                         O git utilizo ele para dar commit para um repositório, clonar
                         códigos, manusear pastas entre outras funcionalidades.
                     </p>
                 </li>
                 <li>
-                    <h3>ReactJs</h3>
+                    <img class="icon-tec" src="./assets/img/icons/physics.png">
                     <p>
-                        O react é uma biblioteca da Meta no JavaScript em que engloba
-                        as linguagens e proporcionam diversas bibliotecas para facilitar a programação.
+                        O react eu utilizo ele para fazer projetos mais complexos com uma busca de API por exemplo, o react proporciona bibliotecas para facilitar a programação.
                     </p>
                 </li>
             </ul>
         </div>
         <div class="soft-skills skills">
-            <h2>Principais Soft Skills:</h2>
+            <h2>Principais Soft Skills</h2>
             <ul>
                 <li>Criatividade</li>
                 <li>Disciplina</li>
@@ -94,7 +100,7 @@
     </section>
     <div class="division"></div>
     <section id="projetos">
-        <h2>Projetos:</h2>
+        <h2>Projetos</h2>
         <ul>
             <div class="section1 section active">
                 <a href="https://lovely-starburst-b74520.netlify.app/" target='_blank'>
@@ -151,6 +157,16 @@
             </div>
         </ul>
         <button id='button-abrir'onclick="more()">Mostrar Mais</button>
+    </section>
+    <div class="division"></div>
+    <section id="contato">
+        <div class="container">
+            <a href="mailto:saullonaruto@gmail.com">
+                <div class="container-div">
+                    <h1>Enviar Email</h1>
+                    <h1>➥</h1>
+                </div>
+            </a>
     </section>
     <section id="footer">
         <p>© Saullo Reis</p>

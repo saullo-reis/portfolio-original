@@ -7,7 +7,7 @@
 }
 
 #projetos button{
-    background-color: #4169E1;
+    background-color: #483D8B;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -26,7 +26,7 @@
 
 #projetos h2{
     margin-bottom: 30px;
-    color: #4169E1;
+    color: #483D8B;
 }
 .section2, .section1{
     display: none;
@@ -41,6 +41,7 @@
 
 #projetos img{
     width: 270px;
+    height: 130px;
 }
 
 #projetos  li{
@@ -49,8 +50,9 @@
     justify-content: center;
     flex-direction: column;
     background-color: black;
+    width: 260px;
     height: 200px;
-    margin-right: 20px;
+    margin:0 10px 20px 10px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.3);
@@ -62,6 +64,6 @@
 }
 
 #projetos li h3{
-    color: #4169E1;
+    color: #483D8B;
     margin-bottom: 10px;
 }

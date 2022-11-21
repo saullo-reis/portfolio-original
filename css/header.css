@@ -1,8 +1,8 @@
 #header{
     width: 100%;
     background-color: black;
-    padding: 20px;
     display:flex;
+    padding: 20px 0 20px 0;
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -11,11 +11,11 @@
 
 #header h1{
     font-size: 60px;
-    border:#4169E1 solid 2px;
+    border:#483D8B solid 2px;
     border-radius:188px;
     padding:10px;
     cursor: pointer;
-    color:#4169E1;
+    color:#483D8B;
 }
 
 #header h1:hover{

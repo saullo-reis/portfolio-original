@@ -22,8 +22,8 @@
     cursor:pointer;
     background-color: #ffffff;
     border: none;
-    width: 20%;
-    height: 25px;
+    width: 30%;
+    height: 48px;
     font-size: 20px;
     font-weight: bold;
     margin:2px;
@@ -31,7 +31,7 @@
 #sobre button:hover{
     transition:1s;
     color:white;
-    background-color: #4169E1;
+    background-color: #483D8B;
 }
 
 #sobre .sobre-min.active{
@@ -41,7 +41,11 @@
     padding:20px;
 }
 
-#sobre .sobre-min img{
+.icon-redes{
+    width: 20px;
+}
+
+.foto-minha{
     width: 200px;
     border: solid white 1px;
     border-radius: 200px;
@@ -51,7 +55,7 @@
     font-size: 30px;
     font-weight: bold;
     margin-bottom:30px;
-    color: #4169E1;
+    color: #483D8B;
 }
 
 #sobre .sobre-min.active .infos{
@@ -63,27 +67,28 @@
 #sobre .sobre-min.active .infos div{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-    width: 40%;
 }
 
 #sobre .sobre-min.active nav{
     margin-top: 20px;
 
 }
-
-
+#sobre .sobre-min p{
+    width: 300px;
+    margin-left: 20px;
+}
 #sobre .sobre-min.active p{
     margin-bottom:30px;
+
 }
 
 #sobre .sobre-min.active a{
-    margin:0 20px 0 0;
+    
     font-weight: bold;
 }
 
 #sobre .sobre-min a:hover{
-    color: #4169E1;
+    color: #483D8B;
     transition: 1s;
     transform: scale(1.2, 1.2);
 

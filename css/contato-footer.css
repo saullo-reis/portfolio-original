@@ -1,0 +1,35 @@
+#contato h1{
+    font-size: 110px;
+    color: #483D8B;
+}
+
+.container-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:700px;
+
+}
+
+.container-div:hover{
+    transition: 1.2s;
+    transform: translate(50px, 0);
+}
+
+#footer{
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: gray;
+    height:100px;
+}
